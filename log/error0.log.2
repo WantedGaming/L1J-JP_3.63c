@@ -1,0 +1,108 @@
+Jul 18, 2015 1:10:55 PM jp.l1j.server.utils.IdFactory loadState
+SEVERE: Table 'l1jdb.inventory_items' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'l1jdb.inventory_items' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4187)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4119)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2815)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at jp.l1j.server.utils.IdFactory.loadState(IdFactory.java:60)
+	at jp.l1j.server.utils.IdFactory.<init>(IdFactory.java:37)
+	at jp.l1j.server.utils.IdFactory.<clinit>(IdFactory.java:34)
+	at jp.l1j.server.GameServer.initialize(GameServer.java:217)
+	at jp.l1j.Server.main(Server.java:91)
+
+Jul 18, 2015 1:10:55 PM jp.l1j.server.datatables.MapTable loadMaps
+SEVERE: Table 'l1jdb.map_ids' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'l1jdb.map_ids' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4187)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4119)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2815)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at jp.l1j.server.datatables.MapTable.loadMaps(MapTable.java:83)
+	at jp.l1j.server.datatables.MapTable.<init>(MapTable.java:69)
+	at jp.l1j.server.datatables.MapTable.getInstance(MapTable.java:130)
+	at jp.l1j.server.model.map.TextMapReader.<clinit>(TextMapReader.java:197)
+	at jp.l1j.server.model.map.CachedMapReader.read(CachedMapReader.java:136)
+	at jp.l1j.server.model.map.L1WorldMap.<init>(L1WorldMap.java:45)
+	at jp.l1j.server.model.map.L1WorldMap.getInstance(L1WorldMap.java:33)
+	at jp.l1j.server.GameServer.initialize(GameServer.java:220)
+	at jp.l1j.Server.main(Server.java:91)
+
+Jul 18, 2015 1:10:55 PM jp.l1j.server.datatables.CharacterTable clearOnlineStatus
+SEVERE: Unknown column 'online_status' in 'field list'
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'online_status' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4187)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4119)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2815)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1379)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.execute(NewProxyPreparedStatement.java:823)
+	at jp.l1j.server.datatables.CharacterTable.clearOnlineStatus(CharacterTable.java:120)
+	at jp.l1j.server.GameServer.initialize(GameServer.java:230)
+	at jp.l1j.Server.main(Server.java:91)
+
+Jul 18, 2015 1:10:55 PM jp.l1j.server.datatables.CastleTable load
+SEVERE: Table 'l1jdb.castles' doesn't exist
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'l1jdb.castles' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4187)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4119)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2815)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)
+	at com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeQuery(NewProxyPreparedStatement.java:116)
+	at jp.l1j.server.datatables.CastleTable.load(CastleTable.java:65)
+	at jp.l1j.server.datatables.CastleTable.<init>(CastleTable.java:49)
+	at jp.l1j.server.datatables.CastleTable.getInstance(CastleTable.java:43)
+	at jp.l1j.server.controller.timer.WarTimeController.<init>(WarTimeController.java:49)
+	at jp.l1j.server.controller.timer.WarTimeController.getInstance(WarTimeController.java:58)
+	at jp.l1j.server.GameServer.initialize(GameServer.java:240)
+	at jp.l1j.Server.main(Server.java:91)
+
+Jul 18, 2015 1:10:55 PM jp.l1j.Server main
+SEVERE: null
+java.lang.NullPointerException
+	at jp.l1j.server.controller.timer.WarTimeController.<init>(WarTimeController.java:50)
+	at jp.l1j.server.controller.timer.WarTimeController.getInstance(WarTimeController.java:58)
+	at jp.l1j.server.GameServer.initialize(GameServer.java:240)
+	at jp.l1j.Server.main(Server.java:91)
+

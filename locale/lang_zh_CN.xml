@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<!--
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<properties>
+<comment>简体中文</comment>
+<entry key="ActID">ActID</entry>
+<entry key="Amount">金额</entry>
+<entry key="AxisX">X</entry>
+<entry key="AxisY">Y</entry>
+<entry key="CharName">角色名</entry>
+<entry key="CommandName">指令</entry>
+<entry key="Enchant">强化</entry>
+<entry key="GfxID">GfxID</entry>
+<entry key="Identify">鉴定</entry>
+<entry key="Interval">数值</entry>
+<entry key="ItemID">物品编号</entry>
+<entry key="ItemName">物品名称</entry>
+<entry key="ItemSetName">套装名称</entry>
+<entry key="Level">等级</entry>
+<entry key="MaxLevel">最高等级</entry>
+<entry key="MinLevel">最低等级</entry>
+<entry key="MapID">地图ID</entry>
+<entry key="Minutes">时间(分)</entry>
+<entry key="NpcID">NpcID</entry>
+<entry key="NpcName">NpcName</entry>
+<entry key="Param">参数</entry>
+<entry key="Range">范围</entry>
+<entry key="RoomName">房间名</entry>
+<entry key="Seconds">Seconds</entry>
+<entry key="SkillID">技能编号</entry>
+<entry key="SpawnID">变身编号</entry>
+<entry key="SprID">SprID</entry>
+<entry key="Status">属性</entry>
+<entry key="Value">值</entry>
+<entry key="Prince">价格</entry>
+<entry key="Knight">骑士</entry>
+<entry key="Wizard">法师</entry>
+<entry key="Elf">妖精</entry>
+<entry key="DarkElf">黑暗</entry>
+<entry key="DragonKnight">龙骑士</entry>
+<entry key="Illusionist">幻术师</entry>
+<entry key="Possible">可能</entry>
+<entry key="Impossible">不可能</entry>
+<entry key="Male">男性</entry>
+<entry key="Female">女性</entry>
+
+<!-- jp/l1j/server/GameServer.java -->
+<entry key="MemoryUsage">内存使用量: %sMB</entry>
+<entry key="WaittingForClient">正在等待用户连接...</entry>
+<entry key="TryingToConnection">正在尝试连线: %s</entry>
+<entry key="BannedIP">被封锁的IP: %s</entry>
+<entry key="GenerateServerSocket">正在建立服务端通讯</entry>
+<entry key="ServerSettings">■■■■ 服务端设置 ■■■■</entry>
+<entry key="Exp">经验值: %s倍</entry>
+<entry key="Lawful">正义值: %s倍</entry>
+<entry key="Karma">友好度: %s倍</entry>
+<entry key="ItemDrop">物品掉落率: %s倍</entry>
+<entry key="AdenaDrop">金币掉落率: %s倍</entry>
+<entry key="EnchantWeapon">武器强化成功率: %s％</entry>
+<entry key="EnchantArmor">防具强化成功率: %s％</entry>
+<entry key="EnchantAttribute">属性强化成功率: %s％</entry>
+<entry key="EnchantAccessory">饰品强化成功率: %s％</entry>
+<entry key="EnchantDoll">魔法娃娃强化成功率: %s％</entry>
+<entry key="WeightReduction">重量减少率: %s倍</entry>
+<entry key="GlobalChat">全体聊天等级: Lv%s</entry>
+<entry key="PvP">PvP: 是</entry>
+<entry key="NonPvP">PvP: 无(Non-PvP)</entry>
+<entry key="MaxUsers">最大玩家数: %d</entry>
+<entry key="LoadingComplete">加载完成</entry>
+<entry key="ShutdownTheServer">关闭服务器。</entry>
+<entry key="PleaseLogout">请在安全区登出。</entry>
+<entry key="ShutdownAfterFewMinutes">伺服端将在%d分后关闭。</entry>
+<entry key="ShutdownAfterFewSeconds">服务器将在%d秒后关闭。请尽快登出。</entry>
+<entry key="ShutdownAbort">关机中止。伺服端持续运行。</entry>
+
+<!-- jp/l1j/server/ClientThread.java -->
+<entry key="ConnectedToTheServer">%s连接到服务器。</entry>
+<entry key="TerminatedTheConnection">终止连接与%s</entry>
+<entry key="KilledTheConnection">因为不能在一定间内回应，强制中断连线%s</entry>
+
+<!-- jp/l1j/server/command/GMCommands.java -->
+<entry key="CanNotUseTheCommand">无法使用 .%s</entry>
+<entry key="UsedTheCommand">%s 使用指令 .%s %s</entry>
+<entry key="DoesNotExistCommand">指令不存在 .%s</entry>
+<entry key="ExecuteTheCommand">执行 .%s</entry>
+<entry key="ReExecuteTheCommand">重新执行 .%s</entry>
+<entry key="ReExecuteTheCommandError">.r 指令错误.</entry>
+
+<!-- jp/l1j/server/command/GMCommandsConfig.java -->
+<entry key="LoadFailed">%s 加载失败.</entry>
+
+<!-- jp/l1j/server/command/L1Commands.java -->
+<entry key="LoadFromTheTableFailed">从 %s 表中读取指令失败.</entry>
+
+<!-- jp/l1j/server/command/executor/* -->
+<entry key="CommandFormat1">请输入以下格式 .%s %s</entry>
+<entry key="CommandFormat2">请输入以下格式 .%s %s %s</entry>
+<entry key="CommandFormat3">请输入以下格式 .%s %s %s %s</entry>
+<entry key="CommandFormat4">请输入以下格式 .%s %s %s %s %s</entry>
+<entry key="CommandFormat5">请输入以下格式 .%s %s %s %s %s %s</entry>
+<entry key="CommandFormatOn">请输入以下格式 .%s on|off. 现为开启状态.</entry>
+<entry key="CommandFormatOff">请输入以下格式 .%s on|off. 现为关闭状态.</entry>
+<entry key="CommandError">.%s 指令错误.</entry>
+
+<!-- jp/l1j/server/command/executor/L1AccountBanKick.java -->
+<entry key="AccountBan">封锁账号 %s.</entry>
+<entry key="DoesNotExistChar">%s 当前游戏中找不到该角色.</entry>
+
+<!-- jp/l1j/server/command/executor/L1AddInstanceMap.java -->
+<entry key="GeneratedTheInstanceMap">Generated the instance map: %d(%d)</entry>
+
+<!-- jp/l1j/server/command/executor/L1Adena.java -->
+<entry key="GeneratedTheAdena">产生 %d 金币.</entry>
+
+<!-- jp/l1j/server/command/executor/L1AttackLog.java -->
+<entry key="ChangedToDisplayTheDamage">显示攻击伤害数据.</entry>
+<entry key="ChangedToHideTheDamage">隐藏攻击伤害数据.</entry>
+
+<!-- jp/l1j/server/command/executor/L1BanIp.java -->
+<entry key="ConnectedPlayer">已连接的玩家 %s(%s)</entry>
+<entry key="AddedToTheBanList">添加到封锁列表中: %s</entry>
+<entry key="RemovedFromTheBanList">从封锁列表中移除: %s</entry>
+<entry key="ExistInTheBanList">存在于封锁列表: %s</entry>
+<entry key="DoesNotExistInTheBanList">不存在于封锁列表: %s</entry>
+
+<!-- jp/l1j/server/command/executor/L1Buff.java -->
+<entry key="IsNotBuffSkill">%d 非buff类型的魔法.</entry>
+
+<!-- jp/l1j/server/command/executor/L1CangeWeather.java -->
+<entry key="WeatherOptions">0~3|16~19</entry>
+
+<!-- jp/l1j/server/command/executor/L1Chat.java -->
+<entry key="EnabledTheGlobalChat">开启全体聊天.</entry>
+<entry key="DisabledTheGlobalChat">关闭全体聊天.</entry>
+<entry key="GlobalChatIsPossible">全体聊天已开启。 .chat off 能使其关闭。</entry>
+<entry key="GlobalChatIsImpossible">全体聊天已关闭。.chat on 能使其开启。</entry>
+
+<!-- jp/l1j/server/command/executor/L1CreateItem.java -->
+<entry key="DoesNotExistItem">物品不存在.</entry>
+
+<!-- jp/l1j/server/command/executor/L1CreateItemSet.java -->
+<entry key="DoesNotExistItemSet">套装不存在.</entry>
+
+<!-- jp/l1j/server/command/executor/L1DeleteGroundItem.java -->
+<entry key="RemovedTheItemsOnTheWorldMap">地面的垃圾被GM清除了.</entry>
+
+<!-- jp/l1j/server/command/executor/L1Describe.java -->
+<entry key="DescDmg">伤害: %d / </entry>
+<entry key="DescHit">命中: %d / </entry>
+<entry key="DescBowDmg">BowDmg: %d / </entry>
+<entry key="DescBowHit">BowHit: %d / </entry>
+<entry key="DescMR">MR: %d / </entry>
+<entry key="DescHPR">HPR: %d / </entry>
+<entry key="DescMPR">MPR: %d / </entry>
+<entry key="DescResistFreeze">Resist freeze: %d / </entry>
+<entry key="DescResistStun">Resist stun: %d / </entry>
+<entry key="DescResistStone">Resist stone: %d / </entry>
+<entry key="DescResistSleep">Resist sleep: %d / </entry>
+<entry key="DescResistHold">Resist hold: %d / </entry>
+<entry key="DescResistBlind">Resist blind: %d / </entry>
+<entry key="DescKarma">Karma: %d / </entry>
+<entry key="DescInventorySize">Inventory size: %d / </entry>
+<entry key="DescExpBonus">EXP bonus: %d％ / </entry>
+
+<!-- jp/l1j/server/command/executor/L1DropLog.java -->
+<entry key="ChangedToDisplayTheDrops">显示物品掉落信息.</entry>
+<entry key="ChangedToHideTheDrops">隐藏物品掉落信息.</entry>
+
+<!-- jp/l1j/server/command/executor/L1Favorite.java -->
+<entry key="CommandIsEmpty">指令为空.</entry>
+<entry key="CanNotBeRegisterd">%s 指令无法登记.</entry>
+<entry key="RegisterdCommand">登记指令 %s.</entry>
+<entry key="CommandThatAreRegisterd">目前登记的指令: %s</entry>
+<entry key="DoesNotExistCommandThatAreRegisterd">登记列表为空.</entry>
+
+<!-- jp/l1j/server/command/executor/L1GMRoome.java -->
+<entry key="DoesNotExistTheRoom">Room编号不存在: %s</entry>
+
+<!-- jp/l1j/server/command/executor/L1InsertSpawn.java -->
+<entry key="DoesNotExistNPC">NPC不存在.</entry>
+<entry key="IsNotMobs">%d is not mobs.</entry>
+<entry key="AddedToTheSpawnList">添加到刷怪资料库中: %s(%d)</entry>
+
+<!-- jp/l1j/server/command/executor/L1Invisible.java -->
+<entry key="BecameInvisible">现在是隐身状态.</entry>
+
+<!-- jp/l1j/server/command/executor/L1Kick.java -->
+<entry key="AccountKick">强制踢出 %s.</entry>
+
+<!-- jp/l1j/server/command/executor/L1LevelPresetn.java -->
+<entry key="GaveTheItem1">给予 %s(%d) (%s: %d, %s: %d)</entry>
+
+<!-- jp/l1j/server/command/executor/L1Loc.java -->
+<entry key="Location">坐标 (%d, %d, %d) %d</entry>
+
+<!-- jp/l1j/server/command/executor/L1Move.java -->
+<entry key="MovedToLoc">移动到坐标 (%d, %d, %d) %d</entry>
+
+<!-- jp/l1j/server/command/executor/L1PartyRecall.java -->
+<entry key="RecalledByGM">您被传唤到GM身边.</entry>
+<entry key="IsNotPartyMember">对方未加入血盟.</entry>
+
+<!-- jp/l1j/server/command/executor/L1PcBuff.java -->
+<entry key="BuffSkillsByGM">GM施放全体Buff.</entry>
+
+<!-- jp/l1j/server/command/executor/L1PotLog.java -->
+<entry key="ChangedToDisplayUseOfThePotions">Changed to display use of the potions.</entry>
+<entry key="ChangedToHideUseOfThePotions">Changed to hide use of the potions.</entry>
+
+<!-- jp/l1j/server/command/executor/L1LevelPresent.java -->
+<entry key="GaveTheItem2">Gave the %s(%d)</entry>
+
+<!-- jp/l1j/server/command/executor/L1Recall.java -->
+<entry key="Recalled">Recalled the %s</entry>
+
+<!-- jp/l1j/server/command/executor/L1Reload.java -->
+<entry key="ReloadedTheDisplayObjects">重载可视物品.</entry>
+
+<!-- jp/l1j/server/command/executor/L1ReloadTrap.java -->
+<entry key="ReloadedTheTraps">已重新读取陷阱资料.</entry>
+
+<!-- jp/l1j/server/command/executor/L1RemoveInstanceMap.java -->
+<entry key="RemovedTheInstanceMap">Removed the instance map: %d</entry>
+<entry key="DoesNotExistInstanceMap">Does not exist instance map: %d</entry>
+
+<!-- jp/l1j/server/command/executor/L1Ress.java -->
+<entry key="ResuscitatedByGM">GM给予了重生.</entry>
+<entry key="RecoveredByGM">GM给予了治疗.</entry>
+
+<!-- jp/l1j/server/command/executor/L1ShutdownRequest.java -->
+<entry key="AcceptedShutdownRequest">接受你的关机请求.</entry>
+<entry key="ShutdownRequestMax">关闭请求达到一定数量。开始关机。</entry>
+
+<!-- jp/l1j/server/command/executor/L1SKick.java -->
+<entry key="DisconnectedTheConnection">By %s command was disconnected the connection of %s(%s)</entry>
+
+<!-- jp/l1j/server/command/executor/L1SpawnCmd.java -->
+<entry key="SummonMonster1">Summoned the %s(%d) (%d)(Range:%d)</entry>
+
+<!-- jp/l1j/server/command/executor/L1Status.java -->
+<entry key="PromotedToGM">Promoted to GM. Please restart.</entry>
+<entry key="IsUnknownParam">%s is unknown parameter.</entry>
+<entry key="ChangedTheStatus">Changed the status of %s(%s) to %d</entry>
+
+<!-- jp/l1j/server/command/executor/L1SpawnCmd.java -->
+<entry key="SummonMonster2">Summoned the %s(%d) (%d)</entry>
+
+<!-- jp/l1j/server/command/executor/L1ToPC.java -->
+<entry key="MovedToTheChar">移动到玩家 %s 身边.</entry>
+
+<!-- jp/l1j/server/command/executor/L1Visible.java -->
+<entry key="BecameVisible">隐形状态解除.</entry>
+
+<!-- jp/l1j/server/controller/LoginController.java -->
+<entry key="IsNotAuthenticated">这是个未被认证的账号.</entry>
+
+<!-- jp/l1j/server/controller/HomeTownTimeController.java -->
+<entry key="HomeTownSystemDailyProcess">村庄系统: 开始处理每日事项</entry>
+<entry key="HomeTownSystemMonthlyProcess">村庄系统: 开始处理每月事项</entry>
+
+<!-- jp/l1j/server/controller/WeatherTimeController.java -->
+<entry key="WeatherSystemClear">天气系统: 晴朗</entry>
+<entry key="WeatherSystemRain">天气系统: 下雨</entry>
+<entry key="WeatherSystemSnow">天气系统: 下雪</entry>
+
+<!-- jp/l1j/server/datatables/ItemTable.java -->
+<entry key="LoadItemFailed">%s(%s) 加载失败</entry>
+
+<!-- jp/l1j/server/model/AcceleratorChecker.java -->
+<entry key="AccelerratorDisconnectTheConnection">Overspeed detected. Disconnect the connection after %d seconds.</entry>
+<entry key="AccelerratorStopTheAction">Overspeed detected. Stop the action after %d seconds.</entry>
+<entry key="AccelerratorMoveToTheIsolationMap">Overspeed detected. Move to the isolation map after %d seconds.</entry>
+<entry key="AccelerratorOverspeedDetected">Overspeed detected.</entry>
+
+<!-- jp/l1j/server/model/L1Attack.java -->
+<entry key="AttackGaveTextColor">\F2</entry>
+<entry key="AttackReceivedTextColor">\F3</entry>
+<entry key="AttackFormat">{0} to {1} {2} {3}</entry>
+<entry key="AttackTo">to</entry>
+<entry key="AttackDmg">%d 伤害</entry>
+<entry key="AttackMiss">miss</entry>
+
+<!-- jp/l1j/server/model/L1BugBearRace.java -->
+<entry key="RaceRound">%d th</entry>
+
+<!-- jp/l1j/server/model/L1Clan.java -->
+<entry key="ClanLeader">[Leader]</entry>
+<entry key="ClanSubLeader">[SubLeader]</entry>
+<entry key="ClanGuardian">[Guardian]</entry>
+<entry key="ClanElite">[Elite]</entry>
+<entry key="ClanRegular">[Regular]</entry>
+
+<!-- jp/l1j/server/model/L1DeleteItemOnGround.java -->
+<entry key="RemoveItemsAfterFewSeconds">Items on the world map will be removed after %d seconds.</entry>
+<entry key="RemovedItemsOnWorldMap">Items on the world map has been removed.</entry>
+
+<!-- jp/l1j/server/model/L1Magic.java -->
+<entry key="SkillGaveTextColor">\F2</entry>
+<entry key="SkillReceivedTextColor">\F3</entry>
+<entry key="SkillSuccess">成功</entry>
+<entry key="SkillFailed">失败</entry>
+<entry key="SkillDmg">%d 技能伤害</entry>
+
+<!-- jp/l1j/server/model/L1DeathMatch.java -->
+<entry key="DeathMatchLessThanMinPlayers">Because less than minimum participants number (%d players), End the deathmatch. Returned the 1,000 adena.</entry>
+
+<!-- jp/l1j/server/model/L1PolyRace.java -->
+<entry key="PolyRaceLessThanMinPlayers">Because less than minimum participants number (%d players), End the race. Returned the 1,000 adena.</entry>
+<entry key="PolyRaceReachedToMaxPlayers">Reached the maximum number of participants.
+</entry>
+
+<!-- jp/l1j/server/model/L1SpellBook.java -->
+<entry key="SpellBookName">魔法书(%s)</entry>
+<entry key="SpiritCrystalName">精灵水晶(%s)</entry>
+<entry key="DarkSpiritCrystalName">黑暗精灵水晶(%s)</entry>
+<entry key="TechnicalDocumentName">技术书(%s)</entry>
+<entry key="DragonTabletName">龙骑士书板(%s)</entry>
+<entry key="MemoryCrystalName">记忆水晶(%s)</entry>
+
+<!-- jp/l1j/server/model/instance/L1HousekeeperInstance.java -->
+<entry key="TaxHasAllreadyPaid">The next minute tax has already paid.</entry>
+
+<!-- jp/l1j/server/model/instance/L1PcInstance.java -->
+<entry key="FailedToObtainTheRevivalPotion">Failed to obtain a revival potion.</entry>
+
+<!-- jp/l1j/server/model/item/executor/* -->
+<entry key="DoesNotExistItemList">%s 不存在于物品列表.</entry>
+<entry key="DoesNotExistSkillList">%s 不存在于技能列表.</entry>
+<entry key="DoesNotExistPolyList">%s 不存在于变身列表.</entry>
+<entry key="DoesNotExistMapList">%s 不存在于地图列表.</entry>
+<entry key="DoesNotExistNpcList">%s 不存在于NPC列表.</entry>
+<entry key="ProbabilitiesError">%s 总概率不是100%%.</entry>
+<entry key="OverEnchantSuccessful">%s 成功制成 %s</entry>
+
+<!-- jp/l1j/server/packets/client/C_AuthLogin.java -->
+<entry key="DenyToMultipleLogins">拒绝多开. 账号=%s host=%s</entry>
+<entry key="DenyToConnectFromSpecificIP">拒绝来自特定IP段的连接. 账号=%s host=%</entry>
+<entry key="DenyToLoginBanAccount">拒绝封锁账号登入. 账号=%s host=%</entry>
+<entry key="DenyToLoginBecauseReachedMaxConnections">拒绝登入, 达到最大连接数.</entry>
+
+<!-- jp/l1j/server/packets/client/C_LoginToServer.java -->
+<entry key="MultipleLoginsDetected">拒绝多开. 断开连接 %s</entry>
+<entry key="LoginRequestIsInvalid">登陆. char=%s account=%s host=%s</entry>
+<entry key="BeyondTheToleranceOfTheLevelDown">超过允许降等限制. char=%s account=%s host=%s</entry>
+<entry key="LoggedCharacter">登入的角色: char=%s account=%s host=%s</entry>
+
+<!-- jp/l1j/server/packets/client/C_PickUpItem.java -->
+<entry key="CanNotPickUpAdena">无法捡起超过 2,000,000,000 金币.</entry>
+
+<!-- jp/l1j/server/packets/client/C_Rank.java -->
+<entry key="ClanList">血盟目录</entry>
+<entry key="JoinToClan">加入血盟</entry>
+<entry key="LeaveTheClan">离开血盟</entry>
+
+<!-- jp/l1j/server/packets/client/C_Shop.java -->
+<entry key="TradingIsImpossible">%s 无法交易.</entry>
+<entry key="CanNotToStack">%s 无法堆叠. 无法交易.</entry>
+
+<!-- jp/l1j/server/packets/client/C_UseItem.java -->
+<entry key="CanBeUsedBelowTheMaxLevel">等级 %d 以下才能使用此道具.</entry>
+
+</properties>
